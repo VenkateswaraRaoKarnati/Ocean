@@ -8,51 +8,51 @@ Develop a scalable, high-performance e-commerce platform that allows users to br
 2. Microservices Architecture
 The application will be divided into several microservices, each responsible for specific functionality. The key microservices are:
 
-User Service
-Product Service
-Inventory Service
-Order Service
-Cart Service
-Payment Service
-Review and Rating Service
-Notification Service
-Search Service
-Gateway Service
-Authentication and Authorization Service
+User Service         .
+Product Service.          
+Inventory Service.      
+Order Service.       
+Cart Service.         
+Payment Service.        
+Review and Rating Service   
+Notification Service      
+Search Service        
+Gateway Service         
+Authentication and Authorization Service       
 3. Detailed Requirements
 User Service
 Functionalities:
 
-User registration and login
-Profile management
-Address management
-API Endpoints:
+User registration and login          
+Profile management      
+Address management      
+API Endpoints:       
 
-POST /users/register
-POST /users/login
-GET /users/{userId}
-PUT /users/{userId}
-POST /users/{userId}/address
-GET /users/{userId}/addresses
-Technologies: Spring Boot, Spring Security, JPA/Hibernate
+POST /users/register       
+POST /users/login       
+GET /users/{userId}          
+PUT /users/{userId}          
+POST /users/{userId}/address             
+GET /users/{userId}/addresses                            
+Technologies: Spring Boot, Spring Security, JPA/Hibernate          
 
-Product Service
-Functionalities:
+Product Service        
+Functionalities:          
 
-Add, update, delete products (Admin)
-View product details
-Product categorization
-API Endpoints:
-
-POST /products
-GET /products/{productId}
-PUT /products/{productId}
-DELETE /products/{productId}
-GET /products/category/{categoryId}
-Technologies: Spring Boot, Spring Data JPA
-
-Inventory Service
-Functionalities:
+Add, update, delete products (Admin)      
+View product details        
+Product categorization          
+API Endpoints:                  
+               
+POST /products              
+GET /products/{productId}            
+PUT /products/{productId}           
+DELETE /products/{productId}            
+GET /products/category/{categoryId}                
+Technologies: Spring Boot, Spring Data JPA                
+             
+Inventory Service            
+Functionalities:        
 
 Manage inventory levels
 Update stock on purchase
